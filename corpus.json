@@ -1,0 +1,142 @@
+[
+  {
+    "id": "pow_15",
+    "act": "Payment of Wages Act, 1936",
+    "section": "Section 15",
+    "category": "Employment",
+    "text": "An employee whose wages have been delayed or not paid can file a claim before the Authority appointed under the Payment of Wages Act. The claim must generally be filed within 12 months of the wages becoming due. The Authority can order payment of the wages due plus compensation."
+  },
+  {
+    "id": "id_act_2a",
+    "act": "Industrial Disputes Act, 1947",
+    "section": "Section 2A",
+    "category": "Employment",
+    "text": "A dismissal, discharge, retrenchment, or termination of an individual workman is treated as an industrial dispute even if no other workman or union is party to it, allowing the individual to raise the matter before the Labour Court or Conciliation Officer."
+  },
+  {
+    "id": "posh_4",
+    "act": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+    "section": "Section 4",
+    "category": "Employment",
+    "text": "Every workplace employing 10 or more employees must constitute an Internal Complaints Committee (ICC) to receive and inquire into complaints of sexual harassment. A complaint must generally be filed within 3 months of the incident, extendable by the Committee."
+  },
+  {
+    "id": "epf_act_8",
+    "act": "Employees' Provident Funds and Miscellaneous Provisions Act, 1952",
+    "section": "Section 8",
+    "category": "Employment",
+    "text": "If an employer fails to deposit PF contributions, the amount can be recovered as arrears of land revenue. Employees can also complain to the Regional Provident Fund Commissioner (RPFC) for non-deposit of PF or ESI contributions."
+  },
+  {
+    "id": "cpa_35",
+    "act": "Consumer Protection Act, 2019",
+    "section": "Section 35",
+    "category": "Consumer",
+    "text": "A consumer complaint regarding defective goods, deficient service, unfair trade practice, or overcharging can be filed before the District Consumer Disputes Redressal Commission. Complaints can also be filed online via the National Consumer Helpline / e-daakhil portal."
+  },
+  {
+    "id": "cpa_2_47",
+    "act": "Consumer Protection Act, 2019",
+    "section": "Section 2(47)",
+    "category": "Consumer",
+    "text": "Unfair trade practice includes false representation of goods or services, misleading advertisements, and deceptive practices. A consumer harmed by such practices can seek compensation and corrective orders from the Consumer Commission."
+  },
+  {
+    "id": "rera_31",
+    "act": "Real Estate (Regulation and Development) Act, 2016 (RERA)",
+    "section": "Section 31",
+    "category": "Consumer",
+    "text": "A homebuyer facing delayed possession, or where a builder has not delivered promised amenities, can file a complaint with the State Real Estate Regulatory Authority against the promoter/builder for compensation or refund with interest."
+  },
+  {
+    "id": "pwdv_12",
+    "act": "Protection of Women from Domestic Violence Act, 2005",
+    "section": "Section 12",
+    "category": "Women's Safety",
+    "text": "A woman facing domestic violence (physical, emotional, verbal, economic, or sexual abuse) from a family member can file an application before a Magistrate seeking protection orders, residence orders, and monetary relief, with assistance from a Protection Officer."
+  },
+  {
+    "id": "ipc_354d",
+    "act": "Bharatiya Nyaya Sanhita, 2023 (formerly IPC Section 354D)",
+    "section": "Stalking provision",
+    "category": "Women's Safety",
+    "text": "Following or repeatedly contacting a woman despite her clear disinterest, or monitoring her use of the internet/email/electronic communication, constitutes stalking and is a criminal offence that can be reported to the police."
+  },
+  {
+    "id": "it_act_66e",
+    "act": "Information Technology Act, 2000",
+    "section": "Section 66E",
+    "category": "Women's Safety",
+    "text": "Capturing, publishing, or transmitting images of a person's private area without consent violates privacy under the IT Act. Non-consensual sharing of morphed or private photos can also be reported to the Cyber Crime Cell or via cybercrime.gov.in."
+  },
+  {
+    "id": "dowry_act_3",
+    "act": "Dowry Prohibition Act, 1961",
+    "section": "Section 3",
+    "category": "Women's Safety",
+    "text": "Giving or taking dowry is a punishable offence. Harassment for dowry can also be reported under the Bharatiya Nyaya Sanhita's cruelty-by-husband-or-relatives provision, alongside relief under the Domestic Violence Act."
+  },
+  {
+    "id": "hma_9",
+    "act": "Hindu Marriage Act, 1955",
+    "section": "Section 9 / Section 13",
+    "category": "Family",
+    "text": "Section 9 allows a spouse to seek restitution of conjugal rights; Section 13 lists grounds for divorce (cruelty, desertion, adultery, etc.). Either party may approach the Family Court depending on the relief sought."
+  },
+  {
+    "id": "crpc_125",
+    "act": "Bharatiya Nagarik Suraksha Sanhita, 2023 (formerly CrPC Section 125)",
+    "section": "Maintenance provision",
+    "category": "Family",
+    "text": "A wife, children, or aged parents unable to maintain themselves can seek a maintenance order against a person with sufficient means who has neglected or refused to maintain them, filed before a Magistrate."
+  },
+  {
+    "id": "gwa_7",
+    "act": "Guardians and Wards Act, 1890",
+    "section": "Section 7",
+    "category": "Family",
+    "text": "A District Court may appoint a guardian for a minor's person or property if it is satisfied that this is for the welfare of the child, considering the child's age, sex, wishes, and relationship with the proposed guardian."
+  },
+  {
+    "id": "jj_act_adopt",
+    "act": "Juvenile Justice (Care and Protection of Children) Act, 2015 / CARA Regulations",
+    "section": "Adoption Regulations",
+    "category": "Family",
+    "text": "Legal adoption in India is processed through the Central Adoption Resource Authority (CARA) portal, requiring registration, home study, and court/District Magistrate confirmation of the adoption order."
+  },
+  {
+    "id": "transfer_44",
+    "act": "Transfer of Property Act, 1882",
+    "section": "Section 44",
+    "category": "Property",
+    "text": "Where one co-owner of property transfers their share, the transferee acquires the rights of that co-owner, including the right to joint possession, subject to the equities between the other co-owners."
+  },
+  {
+    "id": "rent_control",
+    "act": "State Rent Control Acts (varies by state)",
+    "section": "Tenant eviction provisions",
+    "category": "Property",
+    "text": "A landlord seeking to evict a tenant, or a tenant seeking return of a security deposit after lease termination, must generally proceed before the Rent Controller or Civil Court as per the applicable state Rent Control Act."
+  },
+  {
+    "id": "lsaa_12",
+    "act": "Legal Services Authorities Act, 1987",
+    "section": "Section 12",
+    "category": "Legal Aid",
+    "text": "Free legal aid is available to women, children, persons with disabilities, SC/ST members, industrial workmen, victims of trafficking, persons in custody, and those with annual income below the state-notified limit, through the District/State Legal Services Authority."
+  },
+  {
+    "id": "lsaa_19",
+    "act": "Legal Services Authorities Act, 1987",
+    "section": "Section 19",
+    "category": "Legal Aid",
+    "text": "Lok Adalats can settle pending or pre-litigation disputes through conciliation, particularly suited for compoundable civil and criminal matters, motor accident claims, and matrimonial disputes where parties are open to compromise."
+  },
+  {
+    "id": "mv_act_166",
+    "act": "Motor Vehicles Act, 1988",
+    "section": "Section 166",
+    "category": "Other",
+    "text": "A person injured in a motor vehicle accident, or the legal heirs of a person killed, can file a compensation claim before the Motor Accident Claims Tribunal (MACT) against the vehicle owner/insurer."
+  }
+]

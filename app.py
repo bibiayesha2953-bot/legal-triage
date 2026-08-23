@@ -1,7 +1,10 @@
 import streamlit as st
 import joblib
+import json
 import re
+import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 def clean_text(text):
     text = str(text).lower()
@@ -15,6 +18,16 @@ SAFETY_KEYWORDS = ["hit", "abuse", "threat", "unsafe", "afraid", "violence", "st
 def load_model():
     return joblib.load("triage_model.joblib")
 
+@st.cache_resource
+def load_corpus():
+    with open("corpus.json", "r", encoding="utf-8") as f:
+        corpus = json.load(f)
+    corpus_df = pd.DataFrame(corpus)
+    corpus_df["clean_text"] = corpus_df["text"].apply(clean_text)
+    statute_vectorizer = TfidfVectorizer(ngram_range=(1, 2))
+    statute_matrix = statute_vectorizer.fit_transform(corpus_df["clean_text"])
+    return corpus_df, statute_vectorizer, statute_matrix
+
 data = load_model()
 category_clf = data["category_clf"]
 risk_clf = data["risk_clf"]
@@ -22,6 +35,18 @@ vectorizer = data["vectorizer"]
 retrieval_vectorizer = data["retrieval_vectorizer"]
 retrieval_matrix = data["retrieval_matrix"]
 df = data["df"]
+
+corpus_df, statute_vectorizer, statute_matrix = load_corpus()
+
+def retrieve_statutes(user_text, category=None, top_k=2):
+    cleaned = clean_text(user_text)
+    query_vec = statute_vectorizer.transform([cleaned])
+    sims = cosine_similarity(query_vec, statute_matrix)[0]
+    if category:
+        boost = corpus_df["category"].apply(lambda c: 0.15 if c == category else 0)
+        sims = sims + boost.values
+    top_idx = sims.argsort()[::-1][:top_k]
+    return corpus_df.iloc[top_idx][["act", "section", "text"]]
 
 def predict_triage(user_text, top_k=1):
     cleaned = clean_text(user_text)
@@ -33,6 +58,8 @@ def predict_triage(user_text, top_k=1):
     sims = cosine_similarity(query_vec, retrieval_matrix)[0]
     top_idx = sims.argsort()[::-1][:top_k]
     match = df.iloc[top_idx[0]]
+
+    statutes = retrieve_statutes(user_text, category=predicted_category, top_k=2)
 
     text_lower = user_text.lower()
     is_urgent = (
@@ -48,6 +75,7 @@ def predict_triage(user_text, top_k=1):
         "documents_or_evidence": match["documents_or_evidence"],
         "possible_authority": match["possible_authority"],
         "legal_citation": match["legal_citation"],
+        "retrieved_statutes": statutes.to_dict(orient="records"),
         "safety_note": match["safety_note"],
         "urgent_flag": is_urgent,
     }
@@ -66,12 +94,22 @@ if st.button("Get guidance", type="primary") and user_text.strip():
 
     st.subheader(f"Risk level: {result['predicted_risk_level']}")
     st.write(f"**Category:** {result['predicted_category']}")
+
     st.markdown("### Recommended pathway")
     st.info(result["possible_pathway"])
+
     st.markdown("### Documents you may need")
     st.write(result["documents_or_evidence"])
+
     st.markdown("### Authority to approach")
     st.write(result["possible_authority"])
+
     st.markdown("### Legal citation")
     st.write(result["legal_citation"])
+
+    st.markdown("### Relevant statute excerpts")
+    for s in result["retrieved_statutes"]:
+        st.write(f"**{s['act']}** — {s['section']}")
+        st.caption(s["text"])
+
     st.caption(result["safety_note"])
