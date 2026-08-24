@@ -1,142 +1,119 @@
 [
   {
-    "id": "pow_15",
-    "act": "Payment of Wages Act, 1936",
-    "section": "Section 15",
-    "category": "Employment",
-    "text": "An employee whose wages have been delayed or not paid can file a claim before the Authority appointed under the Payment of Wages Act. The claim must generally be filed within 12 months of the wages becoming due. The Authority can order payment of the wages due plus compensation."
-  },
-  {
-    "id": "id_act_2a",
-    "act": "Industrial Disputes Act, 1947",
-    "section": "Section 2A",
-    "category": "Employment",
-    "text": "A dismissal, discharge, retrenchment, or termination of an individual workman is treated as an industrial dispute even if no other workman or union is party to it, allowing the individual to raise the matter before the Labour Court or Conciliation Officer."
-  },
-  {
-    "id": "posh_4",
-    "act": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
-    "section": "Section 4",
-    "category": "Employment",
-    "text": "Every workplace employing 10 or more employees must constitute an Internal Complaints Committee (ICC) to receive and inquire into complaints of sexual harassment. A complaint must generally be filed within 3 months of the incident, extendable by the Committee."
-  },
-  {
-    "id": "epf_act_8",
-    "act": "Employees' Provident Funds and Miscellaneous Provisions Act, 1952",
-    "section": "Section 8",
-    "category": "Employment",
-    "text": "If an employer fails to deposit PF contributions, the amount can be recovered as arrears of land revenue. Employees can also complain to the Regional Provident Fund Commissioner (RPFC) for non-deposit of PF or ESI contributions."
-  },
-  {
-    "id": "cpa_35",
+    "chunk_id": "CONSUMER_001",
+    "category": "Consumer",
     "act": "Consumer Protection Act, 2019",
     "section": "Section 35",
-    "category": "Consumer",
-    "text": "A consumer complaint regarding defective goods, deficient service, unfair trade practice, or overcharging can be filed before the District Consumer Disputes Redressal Commission. Complaints can also be filed online via the National Consumer Helpline / e-daakhil portal."
+    "section_title": "Manner in which complaint shall be made",
+    "text": "A consumer complaint about goods sold/delivered (or agreed to be) or a service provided (or agreed to be), or an allegation of unfair trade practice, may be filed with the District Commission. It may be filed by the affected consumer, a recognised consumer association (whether or not the consumer is a member), one or more consumers representing others with the same interest (with District Commission permission), or the Central/State Government. Complaints may be filed electronically and must include the prescribed fee.",
+    "source_url": "https://legalbots.in/blog/how-to-file-a-consumer-complaint-in-india"
   },
   {
-    "id": "cpa_2_47",
+    "chunk_id": "CONSUMER_002",
+    "category": "Consumer",
     "act": "Consumer Protection Act, 2019",
-    "section": "Section 2(47)",
-    "category": "Consumer",
-    "text": "Unfair trade practice includes false representation of goods or services, misleading advertisements, and deceptive practices. A consumer harmed by such practices can seek compensation and corrective orders from the Consumer Commission."
+    "section": "Sections 34, 47, 58 (as revised by 2021 Rules)",
+    "section_title": "Pecuniary jurisdiction of consumer forums",
+    "text": "Consumer complaints are routed by claim value (based on consideration paid, not compensation claimed). Per the Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021, which revised the original 2019 Act limits: the District Commission handles claims up to Rs 50 lakh, the State Commission handles claims above Rs 50 lakh up to Rs 2 crore, and the National Commission (NCDRC) handles claims exceeding Rs 2 crore.",
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1786342&reg=48&lang=2"
   },
   {
-    "id": "rera_31",
-    "act": "Real Estate (Regulation and Development) Act, 2016 (RERA)",
-    "section": "Section 31",
-    "category": "Consumer",
-    "text": "A homebuyer facing delayed possession, or where a builder has not delivered promised amenities, can file a complaint with the State Real Estate Regulatory Authority against the promoter/builder for compensation or refund with interest."
+    "chunk_id": "EMPLOYMENT_001",
+    "category": "Employment",
+    "act": "Industrial Relations Code, 2020",
+    "section": "Section 59 (formerly Section 33C, Industrial Disputes Act 1947 - repealed 21 Nov 2025)",
+    "section_title": "Recovery of money due from an employer",
+    "text": "Where money is due to a worker from an employer under a settlement, award, or specified chapters of the Code, the worker (or an authorised person, or heirs if deceased) may apply to the appropriate Government for recovery. If satisfied the amount is due, the Government issues a recovery certificate to the Collector, who recovers it as an arrear of land revenue. The application must generally be made within one year of the money becoming due. Multiple workers owed money by the same employer may file jointly. Note: this provision carries forward the erstwhile Section 33C of the Industrial Disputes Act, 1947, which stood repealed when the Industrial Relations Code, 2020 came into force on 21 November 2025.",
+    "source_url": "https://www.lawspedia.in/section-59-of-the-industrial-relations-code-2020"
   },
   {
-    "id": "pwdv_12",
+    "chunk_id": "EMPLOYMENT_002",
+    "category": "Employment",
+    "act": "Minimum Wages Act, 1948",
+    "section": "Section 20",
+    "section_title": "Claims for underpayment of minimum wages",
+    "text": "Provides a mechanism for an employee to file a claim before the designated authority when paid less than the minimum wage fixed for their scheduled employment, allowing recovery of the shortfall. Note: check current status, as Wage Code, 2019 provisions on minimum wages have also come into force alongside the Industrial Relations Code as part of the 2025-26 Labour Codes rollout.",
+    "source_url": "https://en.wikipedia.org/wiki/Industrial_Relations_Code,_2020"
+  },
+  {
+    "chunk_id": "FAMILY_001",
+    "category": "Family",
+    "act": "Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023",
+    "section": "Section 144 (formerly Section 125, CrPC 1973, effective till 30 June 2024)",
+    "section_title": "Order for maintenance of wives, children and parents",
+    "text": "If any person having sufficient means neglects or refuses to maintain his wife (unable to maintain herself), his legitimate or illegitimate minor child, a child who has attained majority but is unable to maintain themselves due to physical/mental abnormality or injury, or his father or mother unable to maintain themselves, a Magistrate of the First Class may order him to pay a monthly allowance for their maintenance. Effective 1 July 2024, this provision replaced Section 125 of the CrPC, 1973, and carries forward the same rights and case law.",
+    "source_url": "https://www.aaptaxlaw.com/bnss/144-bnss-order-for-maintenance-of-wives-children-and-parents-144-bnss-2023.html"
+  },
+  {
+    "chunk_id": "FAMILY_002",
+    "category": "Family",
+    "act": "Family Courts Act, 1984",
+    "section": "General",
+    "section_title": "Establishment and jurisdiction of Family Courts",
+    "text": "Establishes Family Courts to promote conciliation and secure speedy settlement of disputes relating to marriage and family affairs, including maintenance, custody, and matrimonial relief.",
+    "source_url": "https://sclsc.gov.in/theme/front/pdf/ACTS%20FINAL/THE%20FAMILY%20COURTS%20ACT,%201984.pdf"
+  },
+  {
+    "chunk_id": "WOMENSAFETY_001",
+    "category": "Women's Safety",
     "act": "Protection of Women from Domestic Violence Act, 2005",
     "section": "Section 12",
+    "section_title": "Application to Magistrate",
+    "text": "An aggrieved person, a Protection Officer, or any other person on her behalf may present an application to the Magistrate seeking one or more reliefs under the Act (protection, residence, monetary relief, custody, compensation). Before ordering relief, the Magistrate considers any Domestic Incident Report from the Protection Officer or service provider. Applications may be filed before a Judicial Magistrate of the First Class or Metropolitan Magistrate with jurisdiction where the aggrieved person resides, works, or where the cause of action arose. The Magistrate is directed to try and dispose of the application within 60 days from the first hearing.",
+    "source_url": "https://sahodar.in/section-12-in-the-protection-of-women-from-domestic-violence-act-2005/"
+  },
+  {
+    "chunk_id": "WOMENSAFETY_002",
     "category": "Women's Safety",
-    "text": "A woman facing domestic violence (physical, emotional, verbal, economic, or sexual abuse) from a family member can file an application before a Magistrate seeking protection orders, residence orders, and monetary relief, with assistance from a Protection Officer."
+    "act": "Protection of Women from Domestic Violence Act, 2005",
+    "section": "Sections 19-21",
+    "section_title": "Residence, monetary relief, and custody orders",
+    "text": "The Magistrate can pass a residence order directing the respondent to leave the shared household, a monetary relief order to cover the aggrieved person's and children's expenses and losses from domestic violence, and a temporary custody order for any children in favour of the aggrieved person.",
+    "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=12158&reg=3&lang=2"
   },
   {
-    "id": "ipc_354d",
-    "act": "Bharatiya Nyaya Sanhita, 2023 (formerly IPC Section 354D)",
-    "section": "Stalking provision",
-    "category": "Women's Safety",
-    "text": "Following or repeatedly contacting a woman despite her clear disinterest, or monitoring her use of the internet/email/electronic communication, constitutes stalking and is a criminal offence that can be reported to the police."
-  },
-  {
-    "id": "it_act_66e",
-    "act": "Information Technology Act, 2000",
-    "section": "Section 66E",
-    "category": "Women's Safety",
-    "text": "Capturing, publishing, or transmitting images of a person's private area without consent violates privacy under the IT Act. Non-consensual sharing of morphed or private photos can also be reported to the Cyber Crime Cell or via cybercrime.gov.in."
-  },
-  {
-    "id": "dowry_act_3",
-    "act": "Dowry Prohibition Act, 1961",
-    "section": "Section 3",
-    "category": "Women's Safety",
-    "text": "Giving or taking dowry is a punishable offence. Harassment for dowry can also be reported under the Bharatiya Nyaya Sanhita's cruelty-by-husband-or-relatives provision, alongside relief under the Domestic Violence Act."
-  },
-  {
-    "id": "hma_9",
-    "act": "Hindu Marriage Act, 1955",
-    "section": "Section 9 / Section 13",
-    "category": "Family",
-    "text": "Section 9 allows a spouse to seek restitution of conjugal rights; Section 13 lists grounds for divorce (cruelty, desertion, adultery, etc.). Either party may approach the Family Court depending on the relief sought."
-  },
-  {
-    "id": "crpc_125",
-    "act": "Bharatiya Nagarik Suraksha Sanhita, 2023 (formerly CrPC Section 125)",
-    "section": "Maintenance provision",
-    "category": "Family",
-    "text": "A wife, children, or aged parents unable to maintain themselves can seek a maintenance order against a person with sufficient means who has neglected or refused to maintain them, filed before a Magistrate."
-  },
-  {
-    "id": "gwa_7",
-    "act": "Guardians and Wards Act, 1890",
-    "section": "Section 7",
-    "category": "Family",
-    "text": "A District Court may appoint a guardian for a minor's person or property if it is satisfied that this is for the welfare of the child, considering the child's age, sex, wishes, and relationship with the proposed guardian."
-  },
-  {
-    "id": "jj_act_adopt",
-    "act": "Juvenile Justice (Care and Protection of Children) Act, 2015 / CARA Regulations",
-    "section": "Adoption Regulations",
-    "category": "Family",
-    "text": "Legal adoption in India is processed through the Central Adoption Resource Authority (CARA) portal, requiring registration, home study, and court/District Magistrate confirmation of the adoption order."
-  },
-  {
-    "id": "transfer_44",
-    "act": "Transfer of Property Act, 1882",
-    "section": "Section 44",
+    "chunk_id": "PROPERTY_001",
     "category": "Property",
-    "text": "Where one co-owner of property transfers their share, the transferee acquires the rights of that co-owner, including the right to joint possession, subject to the equities between the other co-owners."
+    "act": "Specific Relief Act, 1963",
+    "section": "General (recovery of possession, declaratory and injunctive relief)",
+    "section_title": "Civil remedies for property disputes",
+    "text": "Provides remedies for recovery of possession of immovable property, declaration of title/rights, and preventive relief through injunctions. Used for boundary disputes, encroachment, and disputes over possession or ownership between private parties, which must be adjudicated by the competent Civil Court.",
+    "source_url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf"
   },
   {
-    "id": "rent_control",
-    "act": "State Rent Control Acts (varies by state)",
-    "section": "Tenant eviction provisions",
+    "chunk_id": "PROPERTY_002",
     "category": "Property",
-    "text": "A landlord seeking to evict a tenant, or a tenant seeking return of a security deposit after lease termination, must generally proceed before the Rent Controller or Civil Court as per the applicable state Rent Control Act."
+    "act": "Karnataka Land Revenue Act, 1964",
+    "section": "Sections 128, 131 (mutation) and Section 104 (unauthorised occupation)",
+    "section_title": "Mutation records and encroachment on government land",
+    "text": "Governs maintenance of land records, mutation (khata transfer) after a change in ownership or possession, and land revenue collection. Mutation only updates who pays land revenue and carries no presumptive value on legal title; a genuine title/possession dispute between private parties must go to the civil court, not the revenue authority. Under Section 104, for encroachment on government land, the Tahsildar can summarily evict unauthorised occupants.",
+    "source_url": "https://www.onecityproperty.com/news/karnataka-land-revenue-act-1964"
   },
   {
-    "id": "lsaa_12",
+    "chunk_id": "LEGALAID_001",
+    "category": "Legal Aid",
     "act": "Legal Services Authorities Act, 1987",
     "section": "Section 12",
-    "category": "Legal Aid",
-    "text": "Free legal aid is available to women, children, persons with disabilities, SC/ST members, industrial workmen, victims of trafficking, persons in custody, and those with annual income below the state-notified limit, through the District/State Legal Services Authority."
+    "section_title": "Criteria for free legal aid eligibility",
+    "text": "A person is entitled to free legal services if they are: a member of a Scheduled Caste or Scheduled Tribe; a victim of trafficking in human beings or begar; a woman or child (irrespective of income); a person with disability; a victim of a mass disaster, ethnic violence, caste atrocity, flood, drought, earthquake or industrial disaster; an industrial workman; a person in custody (including protective or juvenile homes, or a psychiatric institution); or a person whose annual income is below the limit prescribed by the concerned State Government (or below Rs 5 lakh for Supreme Court matters).",
+    "source_url": "https://ibclaw.in/section-12-criteria-for-giving-legal-services/"
   },
   {
-    "id": "lsaa_19",
+    "chunk_id": "LEGALAID_002",
+    "category": "Legal Aid",
     "act": "Legal Services Authorities Act, 1987",
-    "section": "Section 19",
-    "category": "Legal Aid",
-    "text": "Lok Adalats can settle pending or pre-litigation disputes through conciliation, particularly suited for compoundable civil and criminal matters, motor accident claims, and matrimonial disputes where parties are open to compromise."
+    "section": "Section 13",
+    "section_title": "Entitlement to legal services",
+    "text": "Persons who satisfy the Section 12 criteria are entitled to receive legal services, provided the concerned Legal Services Authority is satisfied that the person has a prima facie case to prosecute or defend. An affidavit as to income may be treated as sufficient proof of eligibility unless the Authority has reason to disbelieve it.",
+    "source_url": "https://ibclaw.in/section-13-entitlement-of-legal-services/"
   },
   {
-    "id": "mv_act_166",
-    "act": "Motor Vehicles Act, 1988",
-    "section": "Section 166",
+    "chunk_id": "OTHER_001",
     "category": "Other",
-    "text": "A person injured in a motor vehicle accident, or the legal heirs of a person killed, can file a compensation claim before the Motor Accident Claims Tribunal (MACT) against the vehicle owner/insurer."
+    "act": "Legal Services Authorities Act, 1987",
+    "section": "General (Lok Adalat mechanism)",
+    "section_title": "Lok Adalat for amicable dispute settlement",
+    "text": "The Act promotes the organisation of Lok Adalats for amicable settlement of disputes that are pending in court or at a pre-litigation stage, offering a faster, informal, and free alternative dispute resolution route for grievances that do not clearly fit one specific statutory category.",
+    "source_url": "https://nalsa.gov.in/legal-aid/"
   }
 ]
